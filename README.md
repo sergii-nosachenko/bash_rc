@@ -2,7 +2,8 @@
 Git Bash commands, functions, aliases etc. Useful for development.
 
 ## Instructions
-- Save `.bashrc` file to your home directory or just simple run sommand in your terminal:
+- Save `.bashrc` file to your home directory or just simple run command in your terminal:
+
   ```bash
   curl -o  ~/.bashrc https://raw.githubusercontent.com/sergii-nosachenko/bash_rc/main/.bashrc
   ```
@@ -20,6 +21,7 @@ Git Bash commands, functions, aliases etc. Useful for development.
 ## Usage
 - Open your terminal.
 - Run command:
+
   ```bash
   project https://github.com/your-account-name/repo-name.git
   ```
