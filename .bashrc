@@ -17,7 +17,7 @@ project() {
     [[ $1 =~ .*\/(.*)\.git ]]
     cd "${BASH_REMATCH[1]}/"
     # Checkout to develop branch
-    git checkout ${BRANCH}
+    git checkout -b ${BRANCH}
     git switch ${BRANCH}
     # Install dependencies
     npm i
