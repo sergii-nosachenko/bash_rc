@@ -2,8 +2,11 @@
 Git Bash commands, functions, aliases etc. Useful for development.
 
 ## Instructions
-- Save `.bashrc` file to your home directory (run `cd ~` in terminal).
-- Change defaults for your environment:
+- Save `.bashrc` file to your home directory or just simple run sommand in your terminal:
+  ```bash
+  curl -o  ~/.bashrc https://raw.githubusercontent.com/sergii-nosachenko/bash_rc/main/.bashrc
+  ```
+- Open saved file and change defaults for your environment:
   ```bash
   # Path to working directory.
   # $HOME === ~ === your home directory
@@ -18,7 +21,7 @@ Git Bash commands, functions, aliases etc. Useful for development.
 - Open your terminal.
 - Run command:
   ```bash
-    project https://github.com/your-account-name/repo-name.git
+  project https://github.com/your-account-name/repo-name.git
   ```
   (url depends on repository!)
 - Wait until script finishes operations and opens new VSCode window.
